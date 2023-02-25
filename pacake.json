@@ -1,2 +1,20 @@
 "name": "PorticoExchangeCLient"
 "version:"1.0.0"
+"tags":"lightning network, sidechains, rgb , liquid , sequentia"
+
+[panckage]
+
+"name":"Elements"
+
+
+"name":"Sequentia-Core-Elements"
+
+"name":"Fedimint"
+
+"name":"RGB-Core"
+
+"name":"Hypearm"
+
+"name": "PorticoExchangeClientV4"
+
+"name":"statechain"
