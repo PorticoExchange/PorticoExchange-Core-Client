@@ -6,7 +6,8 @@ Portico Exchange Client is a  implementation of the Lightning Network protocol b
 
 This is a light client to interface with [PorticoExchange](https://github.com/PorticoExchange/PorticoExchangeFrontendV2) to facilitate atomic swaps between Lightning Network/onchain BTC <-> Liquid Network/RGB/LNURL/Fedimint/Sequentia/Statechain/OmniBolt
 
--Allows client to register to main Portico instance in order to signal supported pairs.
+-Allows client to register to main Portico instance in order to signal supported pairs
+
 -Accept and Execute trustless swaps
 
 ## To-Do
