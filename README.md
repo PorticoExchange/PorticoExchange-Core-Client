@@ -22,7 +22,6 @@ Portico Exchange Client is a  implementation of the Lightning Network protocol b
 - [ ] Mainnet
 - [ ] Fees
 - [ ] UI via web browser
-- [ ] Atomic Swap without need run full node Liquid and others sidechains/layers
 - [ ] Test with DLCs, Fabric, Liquid, Sequentia, Statechain, RGB
 - [ ] P2P Swap
 - [X] Hosted Channels
