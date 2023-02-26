@@ -18,3 +18,10 @@
 "name": "PorticoExchangeClientV4"
 
 "name":"statechain"
+
+[pairs]
+
+"BTC/USDT"
+"BTC/LBTC"
+"BTC/SEQ"
+"USDT/SEQ"
