@@ -2,10 +2,10 @@
 #ifndef PORTICO_SCRIPT_H
 #define POERICO_SCRIPT_H
 
-#inclued<asset.h>
-#inclued<swap.h>
-#include<liquid.h>
-#include<bitcoin.h>
+#include <asset.h>
+#include <swap.h>
+#include <liquid.h>
+#iinclude <bitcoin.h>
 
 OP_IF
        [HASHOP]  OP_EQUALVERIFY OP_DUP OP_HASH160             
