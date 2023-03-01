@@ -6,7 +6,12 @@
 #include <swap.h>
 #include <liquid.h>
 #include <bitcoin.h>
+ 
+static const
+       
+ static const
 
+//script Portico base
 OP_IF
        [HASHOP]  OP_EQUALVERIFY OP_DUP OP_HASH160             
    OP_ELSE
