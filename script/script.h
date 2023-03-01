@@ -5,7 +5,7 @@
 #include <asset.h>
 #include <swap.h>
 #include <liquid.h>
-#iinclude <bitcoin.h>
+#include <bitcoin.h>
 
 OP_IF
        [HASHOP]  OP_EQUALVERIFY OP_DUP OP_HASH160             
