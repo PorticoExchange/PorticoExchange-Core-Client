@@ -1,6 +1,6 @@
 
 #ifndef PORTICO_SCRIPT_H
-#define POERICO_SCRIPT_H
+#define PORTICO_SCRIPT_H
 
 #include <asset.h>
 #include <swap.h>
