@@ -1,8 +1,9 @@
+{
 "name": "PorticoExchangeCLient"
 "version:"1.0.0"
 "tags":"lightning network, sidechains, rgb , liquid , sequentia"
-
-[package]
+},
+"package"
 
 "name":"Elements"
 
@@ -18,8 +19,8 @@
 "name": "PorticoExchangeClientV4"
 
 "name":"statechain"
-
-[pairs]
+},
+"pairs"
 
 "BTC/USDT"
 "BTC/LBTC"
