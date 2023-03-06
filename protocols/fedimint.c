@@ -1,5 +1,3 @@
-FEDIMINT_H
-FEDIMINT_H 
 
 #include <stdio.h>
 #include <stdlib.h>
