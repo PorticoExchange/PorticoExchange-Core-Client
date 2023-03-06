@@ -70,7 +70,7 @@ void initiate_swap(int amount, char *lightning_node_id) {
     char *fedimint_htlc_script = "OP_SHA256 %02X OP_EQUAL";
     char fedimint_htlc_script_formatted[1024];
     sprintf(fedimint_htlc_script_formatted, fedimint_htlc_script, fedimint_htlc->hash);
-    char *fedimint_htlc_command = "fedimint-cli send %d \"%s\"";
+    char *fedimint_htlc_command = "fedimint-cli send ecash %d \"%s\"";
     char fedimint_htlc_command_formatted[1024];
     sprintf(fedimint_htlc_command_formatted, fedimint_htlc_command, amount, fedimint_htlc_script_formatted);
     char *fedimint_htlc_response = system(fedimint_htlc_command_formatted);
