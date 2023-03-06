@@ -4,7 +4,7 @@
 
 // Agree on the terms of the swap
 uint64_t amount = 10000; // Amount of Bitcoin to be swapped
-float exchange_rate = 0.8; // Exchange rate for the swap
+float exchange_rate = 0.0001 // Exchange rate for the swap
 uint32_t expiry = 86400; // Time frame for completing the swap (1 day)
 
 // Generate a preimage hash
