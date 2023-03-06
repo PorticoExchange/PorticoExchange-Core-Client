@@ -18,15 +18,10 @@ Portico Exchange Client is a  implementation of the Lightning Network protocol b
 
 # To-Do
 - [ ] Testnet
-- [ ] Integration with Umbrel, Raspiblitz
 - [ ] Mainnet
 - [ ] Fees
 - [ ] UI via web browser
-- [ ] Test with DLCs, Fabric, Liquid, Sequentia, Statechain, RGB
 - [ ] P2P Swap
-- [X] Hosted Channels
-- [ ] Miniscript, script and descriptors 
-- [x] Added PayHold invoice
 - [ ] API (Hypercore)
 - [ ] Beta ready
 - [ ] Bitcoin Core/Nix Bitcoin
