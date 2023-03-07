@@ -13,7 +13,7 @@ char *preimage = "my_secret_preimage";
 sha256(preimage, strlen(preimage), hash, 0);
 
 // Create an HTLC contract
-uint64_t fee = 100; // Transaction fee for the contract
+uint64_t fee = 10; // Transaction fee for the contract
 struct htlc_contract contract;
 contract.channel_id = channel_id;
 contract.amount = amount;
