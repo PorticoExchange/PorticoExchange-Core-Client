@@ -70,7 +70,7 @@ void initiate_swap(char *asset, int amount, char *invoice) {
     char elements_htlc_command_formatted[1024];
     sprintf(elements_htlc_command_formatted, elements_htlc_command, asset, amount, preimage, HTLC_TIMEOUT);
     char *elements_htlc_response = jsonrpc_request(elements_htlc_command_formatted);
-    printf("Elements HTLC: %s\n", liquid_htlc_response);
+    printf("Elements HTLC: %s\n", elements_htlc_response);
     
     // Create an HTLC on the Core Lightning Network.
     char *core_htlc_command = "lightning-cli htlc --pay %s %d %d \"%s\"";
