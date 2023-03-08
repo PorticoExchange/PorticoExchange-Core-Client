@@ -34,5 +34,9 @@ if (verify_preimage(preimage, hash)) {
 }
 
 // Once the swap is complete, close the Lightning Network channel with the peer
-close_channel(channel_id)
-if close_channe(preimage, hash)
+close_channel(channel_id);
+    
+// If peer closes channel
+if close_channel(preimage, hash);
+    
+    
