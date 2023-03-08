@@ -1,6 +1,3 @@
-LIQUID_NETWORK_H
-LIQUID_NETWORK_H
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -69,11 +66,11 @@ void initiate_swap(char *asset, int amount, char *invoice) {
     generate_secret(preimage);
     
     // Create an HTLC on the Liquid Network.
-    char *liquid_htlc_command = "liquid-cli htlcissue {\"asset\":\"%s\",\"amount\":%d,\"redeemscript\":\"hashlock(%s)\",\"locktime\":%d,\"fee\":0.0001}";
-    char liquid_htlc_command_formatted[1024];
-    sprintf(liquid_htlc_command_formatted, liquid_htlc_command, asset, amount, preimage, HTLC_TIMEOUT);
-    char *liquid_htlc_response = jsonrpc_request(liquid_htlc_command_formatted);
-    printf("Liquid HTLC: %s\n", liquid_htlc_response);
+    char *elements_htlc_command = "elements-cli htlcissue {\"asset\":\"%s\",\"amount\":%d,\"redeemscript\":\"hashlock(%s)\",\"locktime\":%d,\"fee\":0.0001}";
+    char elements_htlc_command_formatted[1024];
+    sprintf(elements_htlc_command_formatted, elements_htlc_command, asset, amount, preimage, HTLC_TIMEOUT);
+    char *elements_htlc_response = jsonrpc_request(elements_htlc_command_formatted);
+    printf("Elements HTLC: %s\n", liquid_htlc_response);
     
     // Create an HTLC on the Core Lightning Network.
     char *core_htlc_command = "lightning-cli htlc --pay %s %d %d \"%s\"";
