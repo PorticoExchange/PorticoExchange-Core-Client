@@ -4,8 +4,8 @@
 "tags":"lightning network, sidechains, rgb , liquid , sequentia"
 },
 "package"
-
-"name":"Elements"
+{
+"name":"Elements Project"
 "version:"22.1"
 "github": "//github.com/ElementsProject/elements/"
 "license": "MIT"
