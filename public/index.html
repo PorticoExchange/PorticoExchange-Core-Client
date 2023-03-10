@@ -1,1 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Crypto Swap</title>
+</head>
+<body>
+	<h1>Crypto Swap</h1>
+	<label for="crypto1">Crypto 1:</label>
+	<input type="number" id="crypto1" name="crypto1" min="0" step="0.01">
+	<label for="crypto2">Crypto 2:</label>
+	<input type="number" id="crypto2" name="crypto2" min="0" step="0.01">
+	<br><br>
+	<button onclick="swap()">Swap</button>
+	<br><br>
+	<p>Exchange Rate: <span id="exchangeRate"></span></p>
+	<p>Amount of Crypto 2: <span id="amountCrypto2"></span></p>
+	
+	<script>
+		// Retrieve current exchange rate from exchange platform
+		// For demonstration purposes, we'll set a fixed rate of 1:2
+		var exchangeRate = 2;
+
+		// Function to calculate amount of Crypto 2 based on amount of Crypto 1 and exchange rate
+		function calculateAmount() {
+			var crypto1Amount = document.getElementById("crypto1").value;
+			var crypto2Amount = crypto1Amount * exchangeRate;
+			document.getElementById("amountCrypto2").innerHTML = crypto2Amount;
+		}
+
+		// Function to initiate the swap
+		function swap() {
+			// Validate user input and ensure they have sufficient funds to complete the exchange
+			// Send API request to exchange platform to initiate the exchange
+			// Display confirmation message to user
+			alert("Swap completed!");
+		}
+
+		// Display current exchange rate
+		document.getElementById("exchangeRate").innerHTML = "1 Crypto 1 = " + exchangeRate + " Crypto 2";
+	</script>
+</body>
+</html>
 
