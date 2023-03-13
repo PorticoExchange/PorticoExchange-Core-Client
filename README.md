@@ -30,7 +30,7 @@ Portico Exchange Client is a  implementation of the Lightning Network protocol b
 
 Copy/paste
 
-Git clone github.com/PorticoExchangeClient
+Git clone github.com/PorticoExchangeClient.git
 
 Install C in your machine
 
