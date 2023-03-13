@@ -26,11 +26,32 @@ Portico Exchange Client is a  implementation of the Lightning Network protocol b
 - [ ] Beta ready
 - [X] Bitcoin Core/Nix Bitcoin
 
+# Run Client
+
+Copy/paste
+
+Git clone github.com/PorticoExchangeClient
+
+Install C in your machine
+
+sudo apt-get install build-essential
+
+Portico-client
+
+nano Portico-Exchange-Client.c
+
+Compile
+
+gcc Portico-Exchange-Client.c -o Portico-Exchange-Client
+
+Now, just Type ./<output name> to run the program.
+
+~$ ./Portico-Exchange-Client
+
 # Product
 
 -The product is in development in preparation to Beta
 
 -Based on Core Lightning
 
-# Run Client
 
