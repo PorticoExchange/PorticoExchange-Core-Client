@@ -6,4 +6,4 @@ In the moment, we support only Bitcoin protocols, where are:
 
 
 
--Sequentia, a Bitcoin sidechain dedicated to asset tokenization and decentralized exchanges;
+-Sequentia, a Bitcoin sidechain dedicated to asset tokenization and decentralized exchanges.
