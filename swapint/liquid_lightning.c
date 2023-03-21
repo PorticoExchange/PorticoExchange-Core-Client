@@ -1,7 +1,7 @@
 // Define the necessary functions for creating and verifying HTLCs
 void createHTLC() {
   // Code to create an HTLC on the Bitcoin Lightning network
-  createHTLC(amount, recipient, preImage, secretHash, expiryTime)
+  createHTLC(amount, recipient, preImage, secretHash, expiryTime, LBTC)
 }
 
 void verifyHTLC() {
@@ -19,7 +19,8 @@ void performAtomicSwap(int amount, char* recipient, char* secretHash) {
   // Once the recipient has claimed the HTLC, generate an HTLC on the Fedimint network
   verifyHTLC(amount, recipient, secretHash);
 
-  // Wait for the sender to claim the HTLC on the Fedimint network
+  // Wait for the sender to claim the HTLC on the Liquid Network
+  verifyHTLC(amount, recipient, secretHash, LBTC)
 
   // Once the sender has claimed the HTLC, the swap is complete and funds have been exchanged.
 }
