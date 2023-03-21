@@ -17,7 +17,7 @@ Portico Exchange Client is a  implementation of the Lightning Network protocol b
 -THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 # Roadmap
-- [ ] Testnet
+- [X] Testnet
 - [ ] Mainnet
 - [X] Fees
 - [X] UI via web browser (Github Page) 
@@ -25,6 +25,7 @@ Portico Exchange Client is a  implementation of the Lightning Network protocol b
 - [X] API (Hypercore)
 - [ ] Beta ready
 - [X] Bitcoin Core/Nix Bitcoin
+- [ ] Finalize SwapIn and SwapOut
 
 # Run Client
 
