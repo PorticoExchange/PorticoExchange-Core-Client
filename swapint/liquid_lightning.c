@@ -17,6 +17,7 @@ void performAtomicSwap(int amount, char* recipient, char* secretHash) {
   // Wait for recipient to claim the HTLC on the Lightning network
 
   // Once the recipient has claimed the HTLC, generate an HTLC on the Liquid network
+  void performAtomicSwap (int amount, char* recipient, char* secretHash) {
   verifyHTLC(amount, recipient, secretHash);
 
   // Wait for the sender to claim the HTLC on the Liquid Network
