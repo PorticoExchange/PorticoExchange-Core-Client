@@ -1,7 +1,3 @@
-include <lightningd>
-include <elements.pegin.h>
-
-
 // Define the necessary functions for creating and verifying HTLCs
 void createHTLC() {
   // Code to create an HTLC on the Bitcoin Lightning network
