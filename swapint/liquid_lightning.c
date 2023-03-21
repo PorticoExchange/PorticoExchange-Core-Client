@@ -1,10 +1,12 @@
 // Define the necessary functions for creating and verifying HTLCs
 void createHTLC() {
   // Code to create an HTLC on the Bitcoin Lightning network
+  createHTLC(amount, recipient, preImage, secretHash, expiryTime)
 }
 
 void verifyHTLC() {
-  // Code to verify an HTLC on the Fedimint network
+  // Code to verify an HTLC on the Liquid Network
+  createHTLC(amount, recipient, expiryTime)
 }
 
 // Define the swap function
