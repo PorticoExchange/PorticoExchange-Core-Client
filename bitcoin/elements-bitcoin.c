@@ -1,4 +1,4 @@
-f#include <stdio.h>
+#include <stdio.h>
 #include <stdlib.h>
 
 /* Include the C library for interacting with the Bitcoin Core RPC interface */
