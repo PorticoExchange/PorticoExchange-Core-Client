@@ -25,6 +25,15 @@ Portico Exchange Client is a  implementation of the Lightning Network protocol b
 - [X] Bitcoin Core/Nix Bitcoin
 - [ ] Finalize SwapIn and SwapOut
 - [ ] Add Lightning wallets (Zebedee, Muun, etc)
+
+
+# Demo Swap
+
+UI simple with 'swap' between Bitcoin timechains
+
+![image](https://user-images.githubusercontent.com/83122757/227924932-6838fba6-a9da-4338-9b13-f5b4e1b0fbe0.png)
+
+
 # Run Client
 
 Copy/paste
