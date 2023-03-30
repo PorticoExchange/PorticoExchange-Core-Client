@@ -6,17 +6,23 @@
 "package"
 {
 "name":"Elements Project"
-"version:"22.1"
+"version:"22.1.1"
 "github": "//github.com/ElementsProject/elements/"
 "license": "MIT"
 },
 "name":"Sequentia-Core-Elements"
+"version":"1.0.0"
+"license":"MIT"
 
 "name":"Fedimint"
+"version":"0.1.0"
+"license": "MIT"
 
 "name":"RGB-Core"
 
 "name":"Hypearm"
+"version":"1.0.1"
+"license":"MIT"
 
 "name": "PorticoExchangeClientV4"
 
