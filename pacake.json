@@ -1,12 +1,12 @@
 {
 "name": "PorticoExchangeCLient"
-"version:"1.0.0"
+"version":"1.0.0-beta"
 "tags":"lightning network, sidechains, rgb , liquid , sequentia"
 },
 "package"
 {
-"name":"Elements Project"
-"version:"22.1.1"
+"name":"Elements"
+"version":"22.1.1"
 "github": "//github.com/ElementsProject/elements/"
 "license": "MIT"
 },
