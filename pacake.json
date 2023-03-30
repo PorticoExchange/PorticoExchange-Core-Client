@@ -13,21 +13,22 @@
 "name":"Sequentia-Core-Elements"
 "version":"1.0.0"
 "license":"MIT"
-
+},
 "name":"Fedimint"
 "version":"0.1.0"
 "license": "MIT"
-
+},
 "name":"RGB-Core"
-
+"version":"0.10-beta"
+"license":"Apache License 2.0"
+},
 "name":"Hypearm"
 "version":"1.0.1"
 "license":"MIT"
-
-"name": "PorticoExchangeClientV4"
-
-"name":"statechain"
-
+},
+"name":"lightning"
+"version":"v23.02.2"
+"license":"MIT"
 {
 "pairs"
 
