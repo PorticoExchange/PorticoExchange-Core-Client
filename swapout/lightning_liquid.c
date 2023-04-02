@@ -20,7 +20,7 @@ void performAtomicSwap(int amount, char* recipient, char* secretHash) {
   verifyHTLC(amount, recipient, 3600, "Liquid Bitcoin");
 
   // Wait for the sender to claim the HTLC on the Liquid Network
-  createHTLC(amount, recipient, nullptr, secretHash, 3600, "Liquid Bitcoin");
+  createHTLC(amount, recipient, nullptr, secretHash,newAdress, 3600, "Liquid Bitcoin");
 
   // Once the sender has claimed the HTLC, the swap is complete and funds have been exchanged.
 }
