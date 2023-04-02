@@ -1,5 +1,8 @@
 // Define the necessary functions for creating and verifying HTLCs
-void createHTLC(int amount, char* recipient, char* preImage, char* secretHash, int expiryTime, char* network) {
+void createHTLC(int amount, char* recipient, char* preImage, char* secretHash, char* newAddress, int expiryTime, char* network) {
+  // Code to create an HTLC on the specified network, including newAddress
+  // ...
+}
   // Code to create an HTLC on the specified network
   // ...
 }
@@ -20,7 +23,7 @@ void performAtomicSwap(int amount, char* recipient, char* secretHash) {
   verifyHTLC(amount, recipient, 3600, "Liquid Bitcoin");
 
   // Wait for the sender to claim the HTLC on the Liquid Network
-  createHTLC(amount, recipient, nullptr, secretHash, newAdress, 3600, "Liquid Bitcoin");
+  createHTLC(amount, recipient, nullptr, secretHash, newAddress, 3600, "Liquid Bitcoin");
 
   // Once the sender has claimed the HTLC, the swap is complete and funds have been exchanged.
 }
