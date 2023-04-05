@@ -37,6 +37,14 @@ UI simple with 'swap' between Bitcoin timechains
 
 # Run Client
 
+Pre requisite
+
+-Elements Node default by Liquid
+
+-Lightning Node (Core Lightning)
+
+-Laguage C installed
+
 Copy/paste
 
 Git clone github.com/PorticoExchangeClient.git
