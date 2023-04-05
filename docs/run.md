@@ -4,7 +4,11 @@ This doc teachs people run own client from Portico Exchange
 
 # Pre requesites 
 
-- Language C
+-Elements Node default by Liquid
+
+-Lightning Node (Core Lightning)
+
+-Laguage C installed
 
 # Run Client
 
