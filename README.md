@@ -43,12 +43,14 @@ Pre requisite
 
 -Lightning Node (Core Lightning)
 
+-Bitcoin Core 
+
 -Laguage C installed
 
 Copy/paste
 ````
 
-Git clone github.com/PorticoExchangeClient.git
+Git clone github.com/PorticoExchange-Core-Client.git
 ````
 
 Install C in your machine
@@ -61,19 +63,26 @@ sudo apt-get install build-essential
 Portico-client
 ````
 
-nano Portico-Exchange-Client.c
+nano Portico-Exchange-Core-Client.c
 ````
 
 Compile
 ````
 
-gcc Portico-Exchange-Client.c -o Portico-Exchange-Client
+gcc Portico-Exchange-Core-Client.c -o Portico-Exchange-Core-Client
 ````
 
 Now, just Type ./<output name> to run the program.
 ````
 
-~$ ./Portico-Exchange-Client
+~$ ./Portico-Exchange-Core-Client
+````
+
+````
+Change the RPC of Bitcoin Core, CLN and Elements
+
+$./PorticoExchange-Core-Client/elements-bitcoin
+
 ````
 
 # Product
