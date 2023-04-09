@@ -47,6 +47,8 @@ Pre requisite
 
 -Laguage C installed
 
+-Linux
+
 Copy/paste
 ````
 
