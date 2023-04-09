@@ -86,6 +86,12 @@ $./PorticoExchange-Core-Client/elements-bitcoin
 
 ````
 
+Make the atomic transactions
+
+````
+$./PorticoExchange-Core-Client/swapin
+````
+
 # Product
 
 -The product is in development in preparation to Beta
