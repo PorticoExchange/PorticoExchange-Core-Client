@@ -10,6 +10,8 @@ This doc teachs people run own client from Portico Exchange
 
 -Laguage C installed
 
+-Linux
+
 # Run Client
 
 Copy/paste
