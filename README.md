@@ -75,14 +75,10 @@ gcc Portico-Exchange-Core-Client.c -o Portico-Exchange-Core-Client
 
 Now, just Type ./<output name> to run the program.
 ````
-
 ~$ ./Portico-Exchange-Core-Client
-````
 ````
 Change the RPC of Bitcoin Core, CLN and Elements
 ````
-
-
 $./PorticoExchange-Core-Client/elements-bitcoin
 ````
 ````
