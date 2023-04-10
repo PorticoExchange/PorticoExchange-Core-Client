@@ -50,12 +50,13 @@ Pre requisite
 -Linux
 
 Copy/paste
+````
 
 Git clone github.com/PorticoExchange-Core-Client.git
 ````
 
 Install C in your machine
-
+````
 
 sudo apt-get install build-essential
 ````
@@ -77,14 +78,14 @@ Now, just Type ./<output name> to run the program.
 
 ~$ ./Portico-Exchange-Core-Client
 ````
-
+````
 Change the RPC of Bitcoin Core, CLN and Elements
-
+````
 
 
 $./PorticoExchange-Core-Client/elements-bitcoin
 ````
-
+````
 Make the atomic transactions
 
 ````
