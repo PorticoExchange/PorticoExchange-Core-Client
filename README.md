@@ -81,12 +81,11 @@ Change the RPC of Bitcoin Core, CLN and Elements
 ````
 $./PorticoExchange-Core-Client/elements-bitcoin
 ````
-````
 Make the atomic transactions
-
 ````
 $./PorticoExchange-Core-Client/swapin
 ````
+
 
 # Product
 
