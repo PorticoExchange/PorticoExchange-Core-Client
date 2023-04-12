@@ -89,8 +89,6 @@ $./PorticoExchange-Core-Client/swapin
 
 # Product
 
--The product is in development in preparation to Beta
-
--Based on Core Lightning
+Based on Core Lightning
 
 
