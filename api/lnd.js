@@ -46,4 +46,5 @@ client.addHoldInvoice(request, function(err, response) {
 //    "payment_request": <string>,
 //    "add_index": <uint64>,
 //    "payment_addr": <bytes>,
+      "lock_time":"<string>,
 //  }
