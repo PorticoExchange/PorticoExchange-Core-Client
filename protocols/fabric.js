@@ -1,5 +1,5 @@
 // Fabric Dependencies
-const Service = require('@fabric/core/types/service');
+const Service = require('@fabric/core/types/service/lightning');
 
 // Class Definition
 class MyClockService extends Service {
