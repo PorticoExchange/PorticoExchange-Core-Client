@@ -1,1 +1,12 @@
-
+#include <rgb/chainparams.h>
+#include <rgb/privkey.h>
+#include <rgb/pubkey.h>
+#include <rgb/script.h>
+#include <rgb/tx.h>
+#include <ccan/tal/str/str.h>
+#include <common/amount.h>
+#include <common/htlc_tx.h>
+#include <common/key_derive.h>
+#include <common/utils.h>
+#include <stdio.h>
+#include <wally_bip32.h>
