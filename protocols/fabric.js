@@ -2,7 +2,7 @@
 const Service = require('@fabric/core/types/service/lightning');
 
 // Class Definition
-class MyClockService extends Service {
+class lightning {
   constructor (input = {}) {
     // Mandatory
     super(input);
