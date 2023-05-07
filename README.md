@@ -86,9 +86,8 @@ Make the atomic transactions
 $./PorticoExchange-Core-Client/swapin
 ````
 
+# Lightning implementation 
 
-# Product
-
-Based on Core Lightning
+Built on Core Lightning
 
 
