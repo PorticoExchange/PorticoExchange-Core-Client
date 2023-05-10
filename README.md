@@ -86,6 +86,10 @@ Make the atomic transactions
 $./PorticoExchange-Core-Client/swapin
 ````
 # Ossification 
+
+ The core team of Portico not accept Pull Request from non Bitcoins protocols or layers (e.g. ETH, SOL, ADA, etc). Our vision this protocol is done for Bitcoiners
+  
+Any Pull Request will be automatically declined
   
 # Lightning implementation 
 
