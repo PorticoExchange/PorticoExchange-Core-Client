@@ -28,7 +28,7 @@
 
 "name":"lightning"
 "version":"23.05"
-"github":"//github.com/ElementsProject/lightning/releases/tag/v23.05"
+"github":"//github.com/ElementsProject/lightning/"
 "license":"MIT"
 {
 "pairs"
