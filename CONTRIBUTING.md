@@ -8,6 +8,6 @@ Any Pull Request will be automatically declined
 
 # Contribution
 
-- If you is having  problems with app open "Issues" here on the Github
+- If you is having  problems with exchange open "Issues" here on the Github or open ticket with support
 - If you have some idea in add new feature make PR be layer, sidechain or BIP
 -  We not will accept integration with shitcoins or altcoins, any PR will be closed and declined, only accept BItcoin protocols
