@@ -92,6 +92,8 @@ Nowadays, core functionality is freezed and as a part of ossification only bugfi
 The core team of Portico not accept Pull Request from non Bitcoins protocols or layers (e.g. ETH, SOL, ADA, etc). Our vision this protocol is done for Bitcoiners
   
 Any Pull Request will be automatically declined
+ 
+[More details about Contribution](https://github.com/PorticoExchange/PorticoExchange-Core-Client/blob/main/CONTRIBUTING.md)
   
 # Lightning implementation 
 
