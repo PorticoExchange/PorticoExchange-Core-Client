@@ -4,12 +4,16 @@
 
 #include <asset.h>
 #include <swap.h>
-#include <liquid.h>
+#include <element.h>
 #include <bitcoin.h>
  
-static const
+static const asset
        
- static const
+static const swap 
+ 
+static element 
+
+static bitcoin 
 
 //script Portico base
 OP_IF
