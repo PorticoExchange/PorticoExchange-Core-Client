@@ -28,14 +28,6 @@ Portico Exchange Client is a  implementation of the Lightning Network protocol b
 - [ ] RGB integration
 - [ ] Taproot Assets 
 
-
-# Demo Swap
-
-UI simple with 'swap' between Bitcoin timechains
-
-![image](https://user-images.githubusercontent.com/83122757/227936051-bacfd5d4-21a5-43a9-bc2c-d705c78381f1.png)
-
-
 # Run Client
 
 [Check here](https://github.com/PorticoExchange/PorticoExchange-Core-Client/blob/main/docs/run.md)
