@@ -38,54 +38,8 @@ UI simple with 'swap' between Bitcoin timechains
 
 # Run Client
 
-Pre requisite
+[Check here](https://github.com/PorticoExchange/PorticoExchange-Core-Client/blob/main/docs/run.md)
 
--Elements Node default by Liquid
-
--Lightning Node (Core Lightning)
-
--Bitcoin Core 
-
--Laguage C installed
-
--Linux
-
-Copy/paste
-````
-
-Git clone github.com/PorticoExchange-Core-Client.git
-````
-
-Install C in your machine
-````
-
-sudo apt-get install build-essential
-````
-
-Portico-client
-````
-
-nano Portico-Exchange-Core-Client.c
-````
-
-Compile
-````
-
-gcc Portico-Exchange-Core-Client.c -o Portico-Exchange-Core-Client
-````
-
-Now, just Type ./<output name> to run the program.
-````
-~$ ./Portico-Exchange-Core-Client
-````
-Change the RPC of Bitcoin Core, CLN and Elements
-````
-$./PorticoExchange-Core-Client/elements-bitcoin
-````
-Make the atomic transactions
-````
-$./PorticoExchange-Core-Client/swapin
-````
 # Ossification  and Contribution
  
 Nowadays, core functionality is freezed and as a part of ossification only bugfixes are accepted
