@@ -61,7 +61,7 @@ Alice: Liquid address
 Bob: On-chain or invoice
 Make the atomic transactions
 ````
-
+Make the atomic transactions
 ````
 $./PorticoExchange-Core-Client/swapin
 ````
