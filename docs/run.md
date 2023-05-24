@@ -53,7 +53,14 @@ $./PorticoExchange-Core-Client/elements-bitcoin
 
 ````
 
+Change the .env of Alice and Bob and put the Bob and Alice address 
+  ````
+Example: 
+
+Alice: Liquid address
+Bob: On-chain or invoice
 Make the atomic transactions
+````
 
 ````
 $./PorticoExchange-Core-Client/swapin
