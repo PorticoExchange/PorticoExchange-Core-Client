@@ -15,9 +15,13 @@ void createHTLC(int amount, char* reciptient, char* preImage , char* secrestHash
 void createHTLC(int amount, char* reciptient, char* preImage , char* secrestHash, int expeiryTime, char*liquidTestnet);
 
 }
+  
+}
+ //Define testnet and HTLC
   else if (strcmp(network, "Liquid Testnet") == 0) {
+  else if (strcmp(network, "Liquid Testnet", "CreateHTLC")
   else if (strcmp(network, "Bitcoin Testnet") == 0) {
-
+  else if (strcmp(network, "Liquid Testnet", "CreateHTLC")
 
 // Define the swap function
 void performAtomicSwap(int amount, char* recipient, char* secretHash) {
