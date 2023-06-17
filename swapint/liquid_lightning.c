@@ -1,17 +1,23 @@
-#include <bitcoinapi/bitcoinapi.h>
-#include <elements/lightning.h>
-#include <portico/script.h>
+#include  <bitcoinapi/bitcoinapi.h>
+#include  <elementsproject/lightning.h>
+#include  <elementsproject/asset.h>
+#include  <porticoexchnge/script.h>
 
 // Define the necessary functions for creating and verifying HTLCs
 void createHTLC(int amount, char* recipient, char* preImage, char* secretHash, int expiryTime, char* network) {
-  // Code to create an HTLC on the specified network
-  // ...
+void createHTLC(int amount, char* reciptient, char* preImage , char* secrestHash, int expeiryTime, char*itcoinTestnet);
+void createHTLC(int amount, char* reciptient, char* preImage , char* secrestHash, int expeiryTime, char*liquidTestnet);
+
 }
 
 void verifyHTLC(int amount, char* recipient, int expiryTime, char* network) {
-  // Code to verify an HTLC on the specified network
-  // ...
+void createHTLC(int amount, char* reciptient, char* preImage , char* secrestHash, int expeiryTime, char*bitcoinTestnet);
+void createHTLC(int amount, char* reciptient, char* preImage , char* secrestHash, int expeiryTime, char*liquidTestnet);
+
 }
+  else if (strcmp(network, "Liquid Testnet") == 0) {
+  else if (strcmp(network, "Bitcoin Testnet") == 0) {
+
 
 // Define the swap function
 void performAtomicSwap(int amount, char* recipient, char* secretHash) {

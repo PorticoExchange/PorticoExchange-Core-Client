@@ -1,5 +1,6 @@
 #include <bitcoinapi/bitcoinapi.h>
-#include <elements/lightning.h>
+#include <elementsproject/lightning.h>
+#include <elementsproject/asset.h>
 #include <portico/script.h>
 
 // Define the necessary functions for creating and verifying HTLCs
