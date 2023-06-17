@@ -1,7 +1,7 @@
-#included <bitcoinapi/bitcoinapi.h>
-#inclued<elementsproject/lightning.h>
-#inclued <elementsproject/asset.h>
-#inclued <porticoexchnge/script.h>
+#include  <bitcoinapi/bitcoinapi.h>
+#include  <elementsproject/lightning.h>
+#include  <elementsproject/asset.h>
+#include  <porticoexchnge/script.h>
 
 // Define the necessary functions for creating and verifying HTLCs
 void createHTLC(int amount, char* recipient, char* preImage, char* secretHash, int expiryTime, char* network) {
