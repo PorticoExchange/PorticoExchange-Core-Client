@@ -2,14 +2,26 @@
 #include <elements/lightning.h>
 #include <portico/script.h>
 
+
 // Define the necessary functions for creating and verifying HTLCs
-void createHTLC(int amount, char* recipient, char* preImage, char* secretHash, char* newAddress, int expiryTime, char* network) {
-  // Code to create an HTLC on the specified network, including newAddress
-  // ...
+void createHTLC(int amount, char* recipient, char* preImage, char* secretHash, int expiryTime, char* network) {
+void createHTLC(int amount, char* reciptient, char* preImage , char* secrestHash, int expeiryTime, char*itcoinTestnet);
+void createHTLC(int amount, char* reciptient, char* preImage , char* secrestHash, int expeiryTime, char*liquidTestnet);
+
 }
-  // Code to create an HTLC on the specified network
-  // ...
+
+void verifyHTLC(int amount, char* recipient, int expiryTime, char* network) {
+void createHTLC(int amount, char* reciptient, char* preImage , char* secrestHash, int expeiryTime, char*bitcoinTestnet);
+void createHTLC(int amount, char* reciptient, char* preImage , char* secrestHash, int expeiryTime, char*liquidTestnet);
+
 }
+  
+}
+ //Define testnet and HTLC
+  else if (strcmp(network, "Liquid Testnet") == 0) {
+  else if (strcmp(network, "Liquid Testnet", "CreateHTLC")
+  else if (strcmp(network, "Bitcoin Testnet") == 0) {
+  else if (strcmp(network, "Liquid Testnet", "CreateHTLC")
 
 void verifyHTLC(int amount, char* recipient, int expiryTime, char* network) {
   // Code to verify an HTLC on the specified network
@@ -31,3 +43,4 @@ void performAtomicSwap(int amount, char* recipient, char* secretHash) {
 
   // Once the sender has claimed the HTLC, the swap is complete and funds have been exchanged.
 }
+
