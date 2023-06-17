@@ -6,7 +6,7 @@ Portico Exchange Client is a  implementation of the Lightning Network protocol b
 
 -Accept and Execute trustless swaps
 
-# Disclaimer
+## Disclaimer
 
 -Portico is beta software.
 
@@ -14,7 +14,7 @@ Portico Exchange Client is a  implementation of the Lightning Network protocol b
 
 -THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-# Roadmap
+### Roadmap
 - [X] Testnet
 - [ ] Mainnet
 - [X] Fees
@@ -28,11 +28,11 @@ Portico Exchange Client is a  implementation of the Lightning Network protocol b
 - [ ] RGB integration
 - [ ] Taproot Assets 
 
-# Run Client
+### Run Client
 
 [Check here](https://github.com/PorticoExchange/PorticoExchange-Core-Client/blob/main/docs/run.md)
 
-# Ossification  and Contribution
+### Ossification  and Contribution
  
 Nowadays, core functionality is freezed and as a part of ossification only bugfixes are accepted
 
@@ -42,7 +42,7 @@ Any Pull Request will be automatically declined
  
 [More details about Contribution](https://github.com/PorticoExchange/PorticoExchange-Core-Client/blob/main/CONTRIBUTING.md)
   
-# Lightning implementation 
+### Lightning implementation 
 
 Built on Core Lightning
 
