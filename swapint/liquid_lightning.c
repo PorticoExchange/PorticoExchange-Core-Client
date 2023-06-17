@@ -1,4 +1,4 @@
-#inclued <bitcoinapi/bitcoinapi.h>
+#included <bitcoinapi/bitcoinapi.h>
 #inclued<elementsproject/lightning.h>
 #inclued <elementsproject/asset.h>
 #inclued <porticoexchnge/script.h>
