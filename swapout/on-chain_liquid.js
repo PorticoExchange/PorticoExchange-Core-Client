@@ -1,3 +1,6 @@
+const bitcoin = require('bitcoinjs-lib');
+const liquid = require('liquidjs-lib');
+
 // Define the necessary functions for creating and verifying HTLCs
 function createHTLC(amount, recipient, preImage, secretHash, expiryTime, network) {
   // Code to create HTLC on the specified network
