@@ -8,11 +8,9 @@ const script = require('script');
 function createHTLC(amount, recipient, preImage, secretHash, expiryTime, network) {
 // Implementation specific to the chosen network
 if (network === 'Bitcoin Testnet') {
-// Bitcoin Testnet implementation
-// ...
+function network = ('BitcoinTestnet'(
 } else if (network === 'Liquid Testnet') {
-// Liquid Testnet implementation
-// ...
+function network = ('LiquidTestnet')
 }
 }
 
