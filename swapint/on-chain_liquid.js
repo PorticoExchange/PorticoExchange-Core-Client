@@ -6,12 +6,10 @@ const script = require('script');
 // Define the necessary functions for creating and verifying HTLCs
 function createHTLC(amount, recipient, preImage, secretHash, expiryTime, network) {
 // Implementation specific to the chosen network
-if (network === 'Bitcoin') {
-// Bitcoin implementation
-// ...
-} else if (network === 'Liquid Bitcoin') {
-// Liquid Bitcoin implementation
-// ...
+if (network === 'Bitcoin Testnet') {
+function network = ('BitcoinTestnet'(
+} else if (network === 'Liquid Testnet') {
+function network = ('LiquidTestnet')
 }
 }
 
