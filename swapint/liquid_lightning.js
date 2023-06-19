@@ -1,6 +1,7 @@
 const bitcoinApi = require('bitcoinapi');
 const lightning = require('lightning-js');
-const liquid = require('liquid-js-lib');
+const bitcoin = require('bitcoinjs-lib');
+const liquid = require('liquidjs-lib');
 const asset = require('asset');
 const script = require('script');
 
