@@ -2,7 +2,7 @@
 
 This doc teachs people run own client from Portico Exchange
 
-# Pre requesites 
+## Pre requesites 
 
 - Elements Node default by Liquid
 
