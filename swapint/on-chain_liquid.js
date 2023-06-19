@@ -1,6 +1,7 @@
 const bitcoinApi = require('bitcoinapi');
+const bitcoin = require('bitcoinjs-lib');
 const lightning = require('lightning');
-const liquid = require('liquid');
+const liquid = require('liquidjs-lib');
 const script = require('script');
 
 // Define the necessary functions for creating and verifying HTLCs
