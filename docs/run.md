@@ -16,7 +16,7 @@ This doc teachs people run own client from Portico Exchange
 
 - Git
 
--Linux
+- Linux
 
 # Run Client
 
