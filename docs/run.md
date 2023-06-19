@@ -4,11 +4,17 @@ This doc teachs people run own client from Portico Exchange
 
 # Pre requesites 
 
--Elements Node default by Liquid
+- Elements Node default by Liquid
 
--Lightning Node (Core Lightning)
+- Lightning Node (Core Lightning)
 
--Laguage C installed
+-  Bitcoin Core
+
+- NPM
+
+- Node.js
+
+- Git
 
 -Linux
 
