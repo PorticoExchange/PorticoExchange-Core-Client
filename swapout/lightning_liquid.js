@@ -5,6 +5,8 @@ const lightning = require('lightning');
 
   // Set the network (replace 'testnet' with 'mainnet' for mainnet)
   const network = bitcoin.networks.testnet;
+  const network liquid.networks.testnet;
+  txb.setVersion(2).setLockTime(0).network = network;
   txb.setVersion(2).setLockTime(0).network = network;
 
 
