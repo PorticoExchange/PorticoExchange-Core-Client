@@ -4,6 +4,11 @@ const lightning = require('lightning');
 const liquid = require('liquidjs-lib');
 const script = require('script');
 
+
+  // Set the network (replace 'testnet' with 'mainnet' for mainnet)
+  const network = bitcoin.networks.testnet;
+  txb.setVersion(2).setLockTime(0).network = network;
+
 // Define the necessary functions for creating and verifying HTLCs
 function createHTLC(amount, recipient, preImage, secretHash, expiryTime, network) {
 // Implementation specific to the chosen network
