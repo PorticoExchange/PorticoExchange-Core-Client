@@ -1,6 +1,11 @@
 const bitcoin = require('bitcoinjs-lib');
 const liquid = require('liquidjs-lib');
 
+
+  // Set the network (replace 'testnet' with 'mainnet' for mainnet)
+  const network = bitcoin.networks.testnet;
+  txb.setVersion(2).setLockTime(0).network = network;
+
 // Define the necessary functions for creating and verifying HTLCs
 function createHTLC(amount, recipient, preImage, secretHash, expiryTime, network) {
   // Code to create HTLC on the specified network
