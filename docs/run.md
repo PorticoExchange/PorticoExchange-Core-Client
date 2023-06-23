@@ -30,32 +30,28 @@ Install C in your machine
 
 ````
 
-sudo apt-get install build-essential
+sudo npm install -g npm
 ````
 
 Portico-client
 ````
 
-nano Portico-Exchange-Core-Client.c
+-g npm Portico-Exchange-Core-Client 
 ````
 
 Compile
-````
-
-gcc Portico-Exchange-Core-Client.c -o Portico-Exchange-Core-Client
-````
 
 Now, just Type ./<output name> to run the program.
 ````
 
-~$ ./Portico-Exchange-Core-Client
+npm Portico-Exchange-Core-Client
 ````
 
 Change the RPC of Bitcoin Core, CLN and Elements
 
 ````
 
-$./PorticoExchange-Core-Client/elements-bitcoin
+npm PorticoExchange-Core-Client/elements-bitcoin
 
 ````
 
@@ -68,5 +64,5 @@ Bob: On-chain or invoice
 ````
 Make the atomic transactions
 ````
-$./PorticoExchange-Core-Client/swapin
+npm PorticoExchange-Core-Client/swapin
 ````
