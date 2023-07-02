@@ -25,8 +25,10 @@ Portico Exchange Client is a  implementation of the Lightning Network protocol b
 - [X] Bitcoin Core/Nix Bitcoin
 - [X] Finalize SwapIn and SwapOut
 - [X] Add Lightning wallets (Zebedee and Marina)
-- [ ] RGB integration
-- [ ] Taproot Assets 
+- [ ] RGB Protocol
+- [ ] Taproot Assets
+- [ ] Taproot
+- [ ] SEQ
 
 ### Run Client
 
