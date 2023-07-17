@@ -37,7 +37,9 @@
 "BTC-LN/BTC"
 "BTC-LN/LBTC"
      
-
-"publishConfig": {
-     "registry": "https://github.com/PorticoExchange/PorticoExchange-Core-Client.git."
-   },
+{
+  "name": "@PorticoExchange/PorticoExchange-Core-Client",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PorticoExchange/PorticoExchange-Core-Client.git"
+  },
