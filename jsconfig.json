@@ -1,5 +1,8 @@
 {
-"bitcoin"
-"lightning"
-"liquidjs-lib"
+"bitcoin",
+"lightning",
+"liquidjs-lib",
+"tap",
+"seq",
+"payjoin"
 }
