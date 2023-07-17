@@ -39,5 +39,5 @@
      
 
 "publishConfig": {
-     "registry": https://github.com/PorticoExchange/PorticoExchange-Core-Client.git."
+     "registry": "https://github.com/PorticoExchange/PorticoExchange-Core-Client.git."
    },
