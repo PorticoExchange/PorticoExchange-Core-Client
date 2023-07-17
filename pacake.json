@@ -1,6 +1,6 @@
 {
 "name": "PorticoExchangeCLient"
-"version":"1.0.1-beta"
+"version":"1.0.4-beta"
 "tags":"lightning network, sidechains, rgb , liquid , sequentia"
 },
 "package"
@@ -19,11 +19,11 @@
 "license": "MIT"
 
 "name":"RGB-Core"
-"version":"0.10.4"
+"version":"0.10.5"
 "license":"Apache License 2.0"
 
 "name":"Hypearm"
-"version":"1.0.3"
+"version":"1.0.0-beta"
 "license":"MIT"
 
 "name":"lightning"
