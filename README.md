@@ -1,4 +1,4 @@
-# Portico  Exchange Core-Client 
+# Portico Core Client ⚡
 
 Portico Exchange Client is a  implementation of the Lightning Network protocol based on [Core Lightning](https://github.com/ElementsProject/Lightning)
 
@@ -45,8 +45,5 @@ Any Pull Request will be automatically declined
  
 [More details about Contribution](https://github.com/PorticoExchange/PorticoExchange-Core-Client/blob/main/CONTRIBUTING.md)
   
-### Lightning implementation 
-
-Built on Core Lightning
 
 
