@@ -1,4 +1,5 @@
 const bitcoin = require('bitcoinjs-lib');
+const sequentia = require('seqjs-lib');
 const lightning = require('lightning');
 
 const HASH_LENGTH = 32;
