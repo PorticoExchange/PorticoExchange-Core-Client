@@ -27,17 +27,6 @@ class FungibleAsset extends Asset {
   }
 }
 
-class Taproot {
-  constructor(taprootAddress) {
-    this.taprootAddress = taprootAddress;
-  }
-
-  spendFunds(amount) {
-    // Spend funds from Taproot address
-    console.log(`Spending funds from Taproot: ${amount}`);
-  }
-}
-
 class RGBCore {
   constructor() {
     this.globalState = {};
