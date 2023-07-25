@@ -1,4 +1,4 @@
-# Portico Core Client ⚡
+# Portico Core Client ⚡ 💱
 
 Portico Exchange Client is a  implementation of the Lightning Network protocol based on [Core Lightning](https://github.com/ElementsProject/Lightning)
 
