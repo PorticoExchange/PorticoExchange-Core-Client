@@ -44,6 +44,4 @@ verifyHTLC(amount, recipient, 3600, 'Liquid Bitcoin');
 
 // Wait for the sender to claim the HTLC on the Liquid Network
 createHTLC(amount, recipient, null, secretHash, 3600, 'Liquid Bitcoin');
-
-// Once the sender has claimed the HTLC, the swap is complete and funds have been exchanged.
 }
