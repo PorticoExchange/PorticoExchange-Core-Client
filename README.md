@@ -2,9 +2,9 @@
 
 Portico Exchange Client is a  implementation of the Lightning Network protocol based on [Core Lightning](https://github.com/ElementsProject/Lightning)
 
--Allows client to register to main Portico instance in order to signal supported pairs
+- Allows client to register to main Portico instance in order to signal supported pairs
 
--Accept and Execute trustless swaps
+- Accept and Execute trustless swaps
 
 ## Disclaimer
 
