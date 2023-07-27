@@ -21,16 +21,8 @@ Want help or integrate a new Bitcoin layer into Portico?
 You can [PR](https://github.com/PorticoExchange/PIP/) in our section of PIPs
 
 ### Roadmap
-- [X] Testnet
+
 - [ ] Mainnet
-- [X] Fees
-- [X] UI via web browser (Github Page) 
-- [X] P2P Swap
-- [X] API (Hypercore)
-- [x] Beta ready
-- [X] Bitcoin Core/Nix Bitcoin
-- [X] Finalize SwapIn and SwapOut
-- [X] Add Lightning wallets (Zebedee and Marina)
 - [ ] RGB Protocol
 - [ ] Taproot Assets
 - [ ] SEQ
