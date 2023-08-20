@@ -29,7 +29,7 @@ You can [PR](https://github.com/PorticoExchange/PIP/) in our section of PIPs
 - [ ] RGB Protocol
 - [ ] Taproot Assets
 - [ ] SEQ
-- [ ] Taproot
+- [x] Taproot
 - [ ] Payjoin
 
 ### Run Client
