@@ -4,6 +4,7 @@ const bitcoin = require('bitcoinjs-lib');
 const liquid = require('liquidjs-lib');
 const asset = require('asset');
 const script = require('script');
+const bech32 = require('bech32');
 
 
   // Set the network (replace 'testnet' with 'mainnet' for mainnet)
