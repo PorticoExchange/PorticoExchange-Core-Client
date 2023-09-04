@@ -4,4 +4,5 @@ package-lock.json
 tap.js
 liquid_lightning.js
 on-chain_liquid.js
+onchain_rgb.js
 
