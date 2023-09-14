@@ -28,7 +28,6 @@ You can [PR](https://github.com/PorticoExchange/PIP/) in our section of PIPs
 - [ ] CLI Command
 - [ ] RGB Protocol
 - [ ] Taproot Assets
-- [ ] SEQ
 - [x] Taproot
 - [ ] Payjoin
 
